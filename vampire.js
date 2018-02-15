@@ -47,6 +47,7 @@ class Vampire {
   // For example:
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
+  // TODO: This is not working!!
   closestCommonAncestor(vampire) {
     if (this.isMoreSeniorThan(vampire)) {
       return this;
